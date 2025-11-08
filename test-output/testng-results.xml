@@ -1,0 +1,1284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="93" passed="87" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-08T23:03:28 IST" name="Kerala Tourism Regression Suite" finished-at="2025-11-08T23:06:05 IST" duration-ms="157138">
+    <groups>
+      <group name="Responsive">
+        <method signature="ResponsiveUITest.verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.ResponsiveUITest@2002fc1d]" name="verifyResponsiveLayouts" class="keralaTourismAutomationTestNG.ResponsiveUITest"/>
+        <method signature="ResponsiveUITest.verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.ResponsiveUITest@6ff29830]" name="verifyResponsiveLayouts" class="keralaTourismAutomationTestNG.ResponsiveUITest"/>
+        <method signature="ResponsiveUITest.verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.ResponsiveUITest@3098cf3b]" name="verifyResponsiveLayouts" class="keralaTourismAutomationTestNG.ResponsiveUITest"/>
+      </group> <!-- Responsive -->
+      <group name="FormValidation">
+        <method signature="FormFieldValidation.form_Field_Validation_With_Empty_Email_Field_In_SignUP()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" name="form_Field_Validation_With_Empty_Email_Field_In_SignUP" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Field_Validation_With_Empty_Name_Field_InSignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" name="form_Field_Validation_With_Empty_Name_Field_InSignUp" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Field_Validation_With_Empty_Password1_Field_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" name="form_Field_Validation_With_Empty_Password1_Field_In_SignUp" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Field_Validation_With_Empty_Password2_Field_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" name="form_Field_Validation_With_Empty_Password2_Field_In_SignUp" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Field_Validation_With_Empty_PhoneNumber_Field_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" name="form_Field_Validation_With_Empty_PhoneNumber_Field_In_SignUp" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_With_Both_Empty_Fields_on_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" name="form_Validation_With_Both_Empty_Fields_on_Login_Page" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_With_Empty_Email_Field_on_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" name="form_Validation_With_Empty_Email_Field_on_Login_Page" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_With_Empty_password_field_On_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" name="form_Validation_With_Empty_password_field_On_Login_Page" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_With_Invalid_Password_In_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" name="form_Validation_With_Invalid_Password_In_Login_Page" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_With_Invalid_email_in_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" name="form_Validation_With_Invalid_email_in_Login_Page" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_With_Long_Password_Exceeding_The_Minimum_Requirement()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" name="form_Validation_With_Long_Password_Exceeding_The_Minimum_Requirement" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_With_Password_Lesser_than_The_Minimum_Requirement()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" name="form_Validation_With_Password_Lesser_than_The_Minimum_Requirement" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_with_Mismatch_Passwords_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" name="form_Validation_with_Mismatch_Passwords_In_SignUp" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.handle_Unexpected_Alert_If_Present()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" name="handle_Unexpected_Alert_If_Present" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Field_Validation_With_Empty_Email_Field_In_SignUP()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" name="form_Field_Validation_With_Empty_Email_Field_In_SignUP" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Field_Validation_With_Empty_Name_Field_InSignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" name="form_Field_Validation_With_Empty_Name_Field_InSignUp" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Field_Validation_With_Empty_Password1_Field_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" name="form_Field_Validation_With_Empty_Password1_Field_In_SignUp" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Field_Validation_With_Empty_Password2_Field_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" name="form_Field_Validation_With_Empty_Password2_Field_In_SignUp" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Field_Validation_With_Empty_PhoneNumber_Field_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" name="form_Field_Validation_With_Empty_PhoneNumber_Field_In_SignUp" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_With_Both_Empty_Fields_on_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" name="form_Validation_With_Both_Empty_Fields_on_Login_Page" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_With_Empty_Email_Field_on_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" name="form_Validation_With_Empty_Email_Field_on_Login_Page" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_With_Empty_password_field_On_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" name="form_Validation_With_Empty_password_field_On_Login_Page" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_With_Invalid_Password_In_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" name="form_Validation_With_Invalid_Password_In_Login_Page" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_With_Invalid_email_in_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" name="form_Validation_With_Invalid_email_in_Login_Page" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_With_Long_Password_Exceeding_The_Minimum_Requirement()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" name="form_Validation_With_Long_Password_Exceeding_The_Minimum_Requirement" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_With_Password_Lesser_than_The_Minimum_Requirement()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" name="form_Validation_With_Password_Lesser_than_The_Minimum_Requirement" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_with_Mismatch_Passwords_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" name="form_Validation_with_Mismatch_Passwords_In_SignUp" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.handle_Unexpected_Alert_If_Present()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" name="handle_Unexpected_Alert_If_Present" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Field_Validation_With_Empty_Email_Field_In_SignUP()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" name="form_Field_Validation_With_Empty_Email_Field_In_SignUP" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Field_Validation_With_Empty_Name_Field_InSignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" name="form_Field_Validation_With_Empty_Name_Field_InSignUp" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Field_Validation_With_Empty_Password1_Field_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" name="form_Field_Validation_With_Empty_Password1_Field_In_SignUp" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Field_Validation_With_Empty_Password2_Field_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" name="form_Field_Validation_With_Empty_Password2_Field_In_SignUp" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Field_Validation_With_Empty_PhoneNumber_Field_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" name="form_Field_Validation_With_Empty_PhoneNumber_Field_In_SignUp" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_With_Both_Empty_Fields_on_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" name="form_Validation_With_Both_Empty_Fields_on_Login_Page" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_With_Empty_Email_Field_on_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" name="form_Validation_With_Empty_Email_Field_on_Login_Page" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_With_Empty_password_field_On_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" name="form_Validation_With_Empty_password_field_On_Login_Page" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_With_Invalid_Password_In_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" name="form_Validation_With_Invalid_Password_In_Login_Page" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_With_Invalid_email_in_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" name="form_Validation_With_Invalid_email_in_Login_Page" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_With_Long_Password_Exceeding_The_Minimum_Requirement()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" name="form_Validation_With_Long_Password_Exceeding_The_Minimum_Requirement" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_With_Password_Lesser_than_The_Minimum_Requirement()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" name="form_Validation_With_Password_Lesser_than_The_Minimum_Requirement" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.form_Validation_with_Mismatch_Passwords_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" name="form_Validation_with_Mismatch_Passwords_In_SignUp" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+        <method signature="FormFieldValidation.handle_Unexpected_Alert_If_Present()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" name="handle_Unexpected_Alert_If_Present" class="keralaTourismAutomationTestNG.FormFieldValidation"/>
+      </group> <!-- FormValidation -->
+      <group name="E2E">
+        <method signature="E2EuserJourney.verifyHomePageTitle()[pri:1, instance:keralaTourismAutomationTestNG.E2EuserJourney@7c9d8e2]" name="verifyHomePageTitle" class="keralaTourismAutomationTestNG.E2EuserJourney"/>
+        <method signature="E2EuserJourney.performSignUp()[pri:2, instance:keralaTourismAutomationTestNG.E2EuserJourney@7c9d8e2]" name="performSignUp" class="keralaTourismAutomationTestNG.E2EuserJourney"/>
+        <method signature="E2EuserJourney.exploreDistricts()[pri:3, instance:keralaTourismAutomationTestNG.E2EuserJourney@7c9d8e2]" name="exploreDistricts" class="keralaTourismAutomationTestNG.E2EuserJourney"/>
+        <method signature="E2EuserJourney.verifyHomePageTitle()[pri:1, instance:keralaTourismAutomationTestNG.E2EuserJourney@683dbc2c]" name="verifyHomePageTitle" class="keralaTourismAutomationTestNG.E2EuserJourney"/>
+        <method signature="E2EuserJourney.performSignUp()[pri:2, instance:keralaTourismAutomationTestNG.E2EuserJourney@683dbc2c]" name="performSignUp" class="keralaTourismAutomationTestNG.E2EuserJourney"/>
+        <method signature="E2EuserJourney.exploreDistricts()[pri:3, instance:keralaTourismAutomationTestNG.E2EuserJourney@683dbc2c]" name="exploreDistricts" class="keralaTourismAutomationTestNG.E2EuserJourney"/>
+        <method signature="E2EuserJourney.verifyHomePageTitle()[pri:1, instance:keralaTourismAutomationTestNG.E2EuserJourney@623a8092]" name="verifyHomePageTitle" class="keralaTourismAutomationTestNG.E2EuserJourney"/>
+        <method signature="E2EuserJourney.performSignUp()[pri:2, instance:keralaTourismAutomationTestNG.E2EuserJourney@623a8092]" name="performSignUp" class="keralaTourismAutomationTestNG.E2EuserJourney"/>
+        <method signature="E2EuserJourney.exploreDistricts()[pri:3, instance:keralaTourismAutomationTestNG.E2EuserJourney@623a8092]" name="exploreDistricts" class="keralaTourismAutomationTestNG.E2EuserJourney"/>
+      </group> <!-- E2E -->
+      <group name="Smoke">
+        <method signature="BasicSmokeTest.verifyHomePageTitle()[pri:1, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6c40365c]" name="verifyHomePageTitle" class="keralaTourismAutomationTestNG.BasicSmokeTest"/>
+        <method signature="BasicSmokeTest.basicNavigationThroughMainMenu()[pri:2, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6c40365c]" name="basicNavigationThroughMainMenu" class="keralaTourismAutomationTestNG.BasicSmokeTest"/>
+        <method signature="BasicSmokeTest.validatingExplorePage()[pri:3, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6c40365c]" name="validatingExplorePage" class="keralaTourismAutomationTestNG.BasicSmokeTest"/>
+        <method signature="BasicSmokeTest.validatingLoginPage()[pri:4, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6c40365c]" name="validatingLoginPage" class="keralaTourismAutomationTestNG.BasicSmokeTest"/>
+        <method signature="BasicSmokeTest.validatingSignupPage()[pri:5, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6c40365c]" name="validatingSignupPage" class="keralaTourismAutomationTestNG.BasicSmokeTest"/>
+        <method signature="BasicSmokeTest.verifyHomePageTitle()[pri:1, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6e509ffa]" name="verifyHomePageTitle" class="keralaTourismAutomationTestNG.BasicSmokeTest"/>
+        <method signature="BasicSmokeTest.basicNavigationThroughMainMenu()[pri:2, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6e509ffa]" name="basicNavigationThroughMainMenu" class="keralaTourismAutomationTestNG.BasicSmokeTest"/>
+        <method signature="BasicSmokeTest.validatingExplorePage()[pri:3, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6e509ffa]" name="validatingExplorePage" class="keralaTourismAutomationTestNG.BasicSmokeTest"/>
+        <method signature="BasicSmokeTest.validatingLoginPage()[pri:4, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6e509ffa]" name="validatingLoginPage" class="keralaTourismAutomationTestNG.BasicSmokeTest"/>
+        <method signature="BasicSmokeTest.validatingSignupPage()[pri:5, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6e509ffa]" name="validatingSignupPage" class="keralaTourismAutomationTestNG.BasicSmokeTest"/>
+        <method signature="BasicSmokeTest.verifyHomePageTitle()[pri:1, instance:keralaTourismAutomationTestNG.BasicSmokeTest@2f465398]" name="verifyHomePageTitle" class="keralaTourismAutomationTestNG.BasicSmokeTest"/>
+        <method signature="BasicSmokeTest.basicNavigationThroughMainMenu()[pri:2, instance:keralaTourismAutomationTestNG.BasicSmokeTest@2f465398]" name="basicNavigationThroughMainMenu" class="keralaTourismAutomationTestNG.BasicSmokeTest"/>
+        <method signature="BasicSmokeTest.validatingExplorePage()[pri:3, instance:keralaTourismAutomationTestNG.BasicSmokeTest@2f465398]" name="validatingExplorePage" class="keralaTourismAutomationTestNG.BasicSmokeTest"/>
+        <method signature="BasicSmokeTest.validatingLoginPage()[pri:4, instance:keralaTourismAutomationTestNG.BasicSmokeTest@2f465398]" name="validatingLoginPage" class="keralaTourismAutomationTestNG.BasicSmokeTest"/>
+        <method signature="BasicSmokeTest.validatingSignupPage()[pri:5, instance:keralaTourismAutomationTestNG.BasicSmokeTest@2f465398]" name="validatingSignupPage" class="keralaTourismAutomationTestNG.BasicSmokeTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-11-08T23:03:28 IST" name="Chrome Tests" finished-at="2025-11-08T23:05:17 IST" duration-ms="108959">
+      <class name="keralaTourismAutomationTestNG.Performance_PageLoadTime">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.Performance_PageLoadTime@6200f9cb]" started-at="2025-11-08T23:04:09 IST" name="initializeDriver" finished-at="2025-11-08T23:04:13 IST" duration-ms="4327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="measurePageLoadTime()[pri:0, instance:keralaTourismAutomationTestNG.Performance_PageLoadTime@6200f9cb]" started-at="2025-11-08T23:04:13 IST" name="measurePageLoadTime" finished-at="2025-11-08T23:04:14 IST" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- measurePageLoadTime -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:keralaTourismAutomationTestNG.Performance_PageLoadTime@6200f9cb]" started-at="2025-11-08T23:04:14 IST" name="tearDownDriver" finished-at="2025-11-08T23:04:14 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- keralaTourismAutomationTestNG.Performance_PageLoadTime -->
+      <class name="keralaTourismAutomationTestNG.BasicSmokeTest">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6c40365c]" started-at="2025-11-08T23:04:14 IST" name="initializeDriver" finished-at="2025-11-08T23:04:18 IST" duration-ms="4389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="navigating_through_districts_page()[pri:0, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6c40365c]" started-at="2025-11-08T23:04:18 IST" name="navigating_through_districts_page" finished-at="2025-11-08T23:04:28 IST" duration-ms="9808" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[This Page doesn't have a page title expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: This Page doesn't have a page title expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at keralaTourismAutomationTestNG.BasicSmokeTest.navigating_through_districts_page(BasicSmokeTest.java:167)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigating_through_districts_page -->
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6c40365c]" started-at="2025-11-08T23:04:57 IST" name="verifyHomePageTitle" finished-at="2025-11-08T23:04:57 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method signature="basicNavigationThroughMainMenu()[pri:2, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6c40365c]" started-at="2025-11-08T23:04:59 IST" name="basicNavigationThroughMainMenu" finished-at="2025-11-08T23:05:01 IST" duration-ms="1922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicNavigationThroughMainMenu -->
+        <test-method signature="validatingExplorePage()[pri:3, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6c40365c]" started-at="2025-11-08T23:05:16 IST" name="validatingExplorePage" finished-at="2025-11-08T23:05:17 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingExplorePage -->
+        <test-method signature="validatingLoginPage()[pri:4, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6c40365c]" started-at="2025-11-08T23:05:17 IST" name="validatingLoginPage" finished-at="2025-11-08T23:05:17 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingLoginPage -->
+        <test-method signature="validatingSignupPage()[pri:5, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6c40365c]" started-at="2025-11-08T23:05:17 IST" name="validatingSignupPage" finished-at="2025-11-08T23:05:17 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingSignupPage -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6c40365c]" started-at="2025-11-08T23:05:17 IST" name="tearDownDriver" finished-at="2025-11-08T23:05:17 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- keralaTourismAutomationTestNG.BasicSmokeTest -->
+      <class name="keralaTourismAutomationTestNG.FormFieldValidation">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" started-at="2025-11-08T23:03:28 IST" name="initializeDriver" finished-at="2025-11-08T23:03:41 IST" duration-ms="12552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="form_Field_Validation_With_Empty_Email_Field_In_SignUP()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" started-at="2025-11-08T23:03:41 IST" name="form_Field_Validation_With_Empty_Email_Field_In_SignUP" finished-at="2025-11-08T23:03:44 IST" duration-ms="3130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Field_Validation_With_Empty_Email_Field_In_SignUP -->
+        <test-method signature="form_Field_Validation_With_Empty_Name_Field_InSignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" started-at="2025-11-08T23:03:44 IST" name="form_Field_Validation_With_Empty_Name_Field_InSignUp" finished-at="2025-11-08T23:03:47 IST" duration-ms="2639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Field_Validation_With_Empty_Name_Field_InSignUp -->
+        <test-method signature="form_Field_Validation_With_Empty_Password1_Field_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" started-at="2025-11-08T23:03:47 IST" name="form_Field_Validation_With_Empty_Password1_Field_In_SignUp" finished-at="2025-11-08T23:03:50 IST" duration-ms="3169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Field_Validation_With_Empty_Password1_Field_In_SignUp -->
+        <test-method signature="form_Field_Validation_With_Empty_Password2_Field_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" started-at="2025-11-08T23:03:50 IST" name="form_Field_Validation_With_Empty_Password2_Field_In_SignUp" finished-at="2025-11-08T23:03:51 IST" duration-ms="1052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Field_Validation_With_Empty_Password2_Field_In_SignUp -->
+        <test-method signature="form_Field_Validation_With_Empty_PhoneNumber_Field_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" started-at="2025-11-08T23:03:51 IST" name="form_Field_Validation_With_Empty_PhoneNumber_Field_In_SignUp" finished-at="2025-11-08T23:03:54 IST" duration-ms="2874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Field_Validation_With_Empty_PhoneNumber_Field_In_SignUp -->
+        <test-method signature="form_Validation_With_Both_Empty_Fields_on_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" started-at="2025-11-08T23:03:54 IST" name="form_Validation_With_Both_Empty_Fields_on_Login_Page" finished-at="2025-11-08T23:03:59 IST" duration-ms="5054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_With_Both_Empty_Fields_on_Login_Page -->
+        <test-method signature="form_Validation_With_Empty_Email_Field_on_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" started-at="2025-11-08T23:03:59 IST" name="form_Validation_With_Empty_Email_Field_on_Login_Page" finished-at="2025-11-08T23:03:59 IST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_With_Empty_Email_Field_on_Login_Page -->
+        <test-method signature="form_Validation_With_Empty_password_field_On_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" started-at="2025-11-08T23:03:59 IST" name="form_Validation_With_Empty_password_field_On_Login_Page" finished-at="2025-11-08T23:04:02 IST" duration-ms="2601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_With_Empty_password_field_On_Login_Page -->
+        <test-method signature="form_Validation_With_Invalid_Password_In_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" started-at="2025-11-08T23:04:02 IST" name="form_Validation_With_Invalid_Password_In_Login_Page" finished-at="2025-11-08T23:04:03 IST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_With_Invalid_Password_In_Login_Page -->
+        <test-method signature="form_Validation_With_Invalid_email_in_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" started-at="2025-11-08T23:04:03 IST" name="form_Validation_With_Invalid_email_in_Login_Page" finished-at="2025-11-08T23:04:03 IST" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_With_Invalid_email_in_Login_Page -->
+        <test-method signature="form_Validation_With_Long_Password_Exceeding_The_Minimum_Requirement()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" started-at="2025-11-08T23:04:03 IST" name="form_Validation_With_Long_Password_Exceeding_The_Minimum_Requirement" finished-at="2025-11-08T23:04:04 IST" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_With_Long_Password_Exceeding_The_Minimum_Requirement -->
+        <test-method signature="form_Validation_With_Password_Lesser_than_The_Minimum_Requirement()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" started-at="2025-11-08T23:04:04 IST" name="form_Validation_With_Password_Lesser_than_The_Minimum_Requirement" finished-at="2025-11-08T23:04:05 IST" duration-ms="917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_With_Password_Lesser_than_The_Minimum_Requirement -->
+        <test-method signature="form_Validation_with_Mismatch_Passwords_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" started-at="2025-11-08T23:04:05 IST" name="form_Validation_with_Mismatch_Passwords_In_SignUp" finished-at="2025-11-08T23:04:06 IST" duration-ms="1175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_with_Mismatch_Passwords_In_SignUp -->
+        <test-method signature="handle_Unexpected_Alert_If_Present()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" started-at="2025-11-08T23:04:06 IST" name="handle_Unexpected_Alert_If_Present" finished-at="2025-11-08T23:04:08 IST" duration-ms="2058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handle_Unexpected_Alert_If_Present -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@20d525]" started-at="2025-11-08T23:04:08 IST" name="tearDownDriver" finished-at="2025-11-08T23:04:09 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- keralaTourismAutomationTestNG.FormFieldValidation -->
+      <class name="keralaTourismAutomationTestNG.E2EuserJourney">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.E2EuserJourney@7c9d8e2]" started-at="2025-11-08T23:04:57 IST" name="initializeDriver" finished-at="2025-11-08T23:04:59 IST" duration-ms="2587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:keralaTourismAutomationTestNG.E2EuserJourney@7c9d8e2]" started-at="2025-11-08T23:04:59 IST" name="verifyHomePageTitle" finished-at="2025-11-08T23:04:59 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method signature="performSignUp()[pri:2, instance:keralaTourismAutomationTestNG.E2EuserJourney@7c9d8e2]" started-at="2025-11-08T23:05:01 IST" name="performSignUp" finished-at="2025-11-08T23:05:08 IST" depends-on-methods="keralaTourismAutomationTestNG.E2EuserJourney.verifyHomePageTitle" duration-ms="6926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performSignUp -->
+        <test-method signature="exploreDistricts()[pri:3, instance:keralaTourismAutomationTestNG.E2EuserJourney@7c9d8e2]" started-at="2025-11-08T23:05:08 IST" name="exploreDistricts" finished-at="2025-11-08T23:05:16 IST" depends-on-methods="keralaTourismAutomationTestNG.E2EuserJourney.performSignUp" duration-ms="8024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exploreDistricts -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:keralaTourismAutomationTestNG.E2EuserJourney@7c9d8e2]" started-at="2025-11-08T23:05:16 IST" name="tearDownDriver" finished-at="2025-11-08T23:05:16 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- keralaTourismAutomationTestNG.E2EuserJourney -->
+      <class name="keralaTourismAutomationTestNG.ResponsiveUITest">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.ResponsiveUITest@2002fc1d]" started-at="2025-11-08T23:04:51 IST" name="initializeDriver" finished-at="2025-11-08T23:04:54 IST" duration-ms="3217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.ResponsiveUITest@2002fc1d]" started-at="2025-11-08T23:04:54 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T23:04:54 IST" duration-ms="545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1920]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Desktop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.ResponsiveUITest@2002fc1d]" started-at="2025-11-08T23:04:54 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T23:04:55 IST" duration-ms="581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1024]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[768]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tablet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.ResponsiveUITest@2002fc1d]" started-at="2025-11-08T23:04:55 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T23:04:56 IST" duration-ms="639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[375]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[667]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mobile iPhone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.ResponsiveUITest@2002fc1d]" started-at="2025-11-08T23:04:56 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T23:04:56 IST" duration-ms="589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[360]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[800]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mobile Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:keralaTourismAutomationTestNG.ResponsiveUITest@2002fc1d]" started-at="2025-11-08T23:04:56 IST" name="tearDownDriver" finished-at="2025-11-08T23:04:57 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- keralaTourismAutomationTestNG.ResponsiveUITest -->
+      <class name="keralaTourismAutomationTestNG.BrokenLinkDetection">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.BrokenLinkDetection@23348b5d]" started-at="2025-11-08T23:04:35 IST" name="initializeDriver" finished-at="2025-11-08T23:04:44 IST" duration-ms="8739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="verifyBrokenLinks()[pri:0, instance:keralaTourismAutomationTestNG.BrokenLinkDetection@23348b5d]" started-at="2025-11-08T23:04:44 IST" name="verifyBrokenLinks" finished-at="2025-11-08T23:04:50 IST" duration-ms="6455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrokenLinks -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:keralaTourismAutomationTestNG.BrokenLinkDetection@23348b5d]" started-at="2025-11-08T23:04:50 IST" name="tearDownDriver" finished-at="2025-11-08T23:04:51 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- keralaTourismAutomationTestNG.BrokenLinkDetection -->
+      <class name="keralaTourismAutomationTestNG.XSSInjectionTest">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.XSSInjectionTest@69453e37]" started-at="2025-11-08T23:04:28 IST" name="initializeDriver" finished-at="2025-11-08T23:04:32 IST" duration-ms="3655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="test_Login_XSS_Injection()[pri:0, instance:keralaTourismAutomationTestNG.XSSInjectionTest@69453e37]" started-at="2025-11-08T23:04:32 IST" name="test_Login_XSS_Injection" finished-at="2025-11-08T23:04:33 IST" duration-ms="1287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login_XSS_Injection -->
+        <test-method signature="test_Signup_XSS_Injection()[pri:0, instance:keralaTourismAutomationTestNG.XSSInjectionTest@69453e37]" started-at="2025-11-08T23:04:33 IST" name="test_Signup_XSS_Injection" finished-at="2025-11-08T23:04:35 IST" duration-ms="1928" status="FAIL">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : validation Success}
+  (Session info: chrome=142.0.7444.60): validation Success
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [370865ecb760e241c7974c0a137f19c5, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\Users\GIRISH\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56744}, goog:processID: 27040, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56744/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 370865ecb760e241c7974c0a137f19c5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : validation Success}
+  (Session info: chrome=142.0.7444.60): validation Success
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [370865ecb760e241c7974c0a137f19c5, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.60, chrome: {chromedriverVersion: 142.0.7444.61 (9884f628acbc..., userDataDir: C:\Users\GIRISH\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56744}, goog:processID: 27040, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56744/devtoo..., se:cdpVersion: 142.0.7444.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 370865ecb760e241c7974c0a137f19c5
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:333)
+at utilities.ScreenshotUtility.ScreenshotOf(ScreenshotUtility.java:14)
+at keralaTourismAutomationTestNG.XSSInjectionTest.test_Signup_XSS_Injection(XSSInjectionTest.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Signup_XSS_Injection -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:keralaTourismAutomationTestNG.XSSInjectionTest@69453e37]" started-at="2025-11-08T23:04:35 IST" name="tearDownDriver" finished-at="2025-11-08T23:04:35 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- keralaTourismAutomationTestNG.XSSInjectionTest -->
+    </test> <!-- Chrome Tests -->
+    <test started-at="2025-11-08T23:03:28 IST" name="Edge Tests" finished-at="2025-11-08T23:05:36 IST" duration-ms="128249">
+      <class name="keralaTourismAutomationTestNG.Performance_PageLoadTime">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.Performance_PageLoadTime@175b9425]" started-at="2025-11-08T23:04:09 IST" name="initializeDriver" finished-at="2025-11-08T23:04:13 IST" duration-ms="4306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="measurePageLoadTime()[pri:0, instance:keralaTourismAutomationTestNG.Performance_PageLoadTime@175b9425]" started-at="2025-11-08T23:04:13 IST" name="measurePageLoadTime" finished-at="2025-11-08T23:04:14 IST" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- measurePageLoadTime -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:keralaTourismAutomationTestNG.Performance_PageLoadTime@175b9425]" started-at="2025-11-08T23:04:14 IST" name="tearDownDriver" finished-at="2025-11-08T23:04:14 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- keralaTourismAutomationTestNG.Performance_PageLoadTime -->
+      <class name="keralaTourismAutomationTestNG.BasicSmokeTest">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.BasicSmokeTest@2f465398]" started-at="2025-11-08T23:04:14 IST" name="initializeDriver" finished-at="2025-11-08T23:04:16 IST" duration-ms="2204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="navigating_through_districts_page()[pri:0, instance:keralaTourismAutomationTestNG.BasicSmokeTest@2f465398]" started-at="2025-11-08T23:04:16 IST" name="navigating_through_districts_page" finished-at="2025-11-08T23:04:32 IST" duration-ms="16199" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[This Page doesn't have a page title expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: This Page doesn't have a page title expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at keralaTourismAutomationTestNG.BasicSmokeTest.navigating_through_districts_page(BasicSmokeTest.java:167)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigating_through_districts_page -->
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:keralaTourismAutomationTestNG.BasicSmokeTest@2f465398]" started-at="2025-11-08T23:04:58 IST" name="verifyHomePageTitle" finished-at="2025-11-08T23:04:58 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method signature="basicNavigationThroughMainMenu()[pri:2, instance:keralaTourismAutomationTestNG.BasicSmokeTest@2f465398]" started-at="2025-11-08T23:05:02 IST" name="basicNavigationThroughMainMenu" finished-at="2025-11-08T23:05:06 IST" duration-ms="4542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicNavigationThroughMainMenu -->
+        <test-method signature="validatingExplorePage()[pri:3, instance:keralaTourismAutomationTestNG.BasicSmokeTest@2f465398]" started-at="2025-11-08T23:05:35 IST" name="validatingExplorePage" finished-at="2025-11-08T23:05:36 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingExplorePage -->
+        <test-method signature="validatingLoginPage()[pri:4, instance:keralaTourismAutomationTestNG.BasicSmokeTest@2f465398]" started-at="2025-11-08T23:05:36 IST" name="validatingLoginPage" finished-at="2025-11-08T23:05:36 IST" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingLoginPage -->
+        <test-method signature="validatingSignupPage()[pri:5, instance:keralaTourismAutomationTestNG.BasicSmokeTest@2f465398]" started-at="2025-11-08T23:05:36 IST" name="validatingSignupPage" finished-at="2025-11-08T23:05:36 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingSignupPage -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:keralaTourismAutomationTestNG.BasicSmokeTest@2f465398]" started-at="2025-11-08T23:05:36 IST" name="tearDownDriver" finished-at="2025-11-08T23:05:36 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- keralaTourismAutomationTestNG.BasicSmokeTest -->
+      <class name="keralaTourismAutomationTestNG.FormFieldValidation">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" started-at="2025-11-08T23:03:28 IST" name="initializeDriver" finished-at="2025-11-08T23:03:41 IST" duration-ms="12571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="form_Field_Validation_With_Empty_Email_Field_In_SignUP()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" started-at="2025-11-08T23:03:41 IST" name="form_Field_Validation_With_Empty_Email_Field_In_SignUP" finished-at="2025-11-08T23:03:44 IST" duration-ms="3124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Field_Validation_With_Empty_Email_Field_In_SignUP -->
+        <test-method signature="form_Field_Validation_With_Empty_Name_Field_InSignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" started-at="2025-11-08T23:03:44 IST" name="form_Field_Validation_With_Empty_Name_Field_InSignUp" finished-at="2025-11-08T23:03:47 IST" duration-ms="2654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Field_Validation_With_Empty_Name_Field_InSignUp -->
+        <test-method signature="form_Field_Validation_With_Empty_Password1_Field_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" started-at="2025-11-08T23:03:47 IST" name="form_Field_Validation_With_Empty_Password1_Field_In_SignUp" finished-at="2025-11-08T23:03:50 IST" duration-ms="3108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Field_Validation_With_Empty_Password1_Field_In_SignUp -->
+        <test-method signature="form_Field_Validation_With_Empty_Password2_Field_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" started-at="2025-11-08T23:03:50 IST" name="form_Field_Validation_With_Empty_Password2_Field_In_SignUp" finished-at="2025-11-08T23:03:51 IST" duration-ms="1065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Field_Validation_With_Empty_Password2_Field_In_SignUp -->
+        <test-method signature="form_Field_Validation_With_Empty_PhoneNumber_Field_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" started-at="2025-11-08T23:03:51 IST" name="form_Field_Validation_With_Empty_PhoneNumber_Field_In_SignUp" finished-at="2025-11-08T23:03:54 IST" duration-ms="2870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Field_Validation_With_Empty_PhoneNumber_Field_In_SignUp -->
+        <test-method signature="form_Validation_With_Both_Empty_Fields_on_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" started-at="2025-11-08T23:03:54 IST" name="form_Validation_With_Both_Empty_Fields_on_Login_Page" finished-at="2025-11-08T23:03:59 IST" duration-ms="5232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_With_Both_Empty_Fields_on_Login_Page -->
+        <test-method signature="form_Validation_With_Empty_Email_Field_on_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" started-at="2025-11-08T23:03:59 IST" name="form_Validation_With_Empty_Email_Field_on_Login_Page" finished-at="2025-11-08T23:03:59 IST" duration-ms="563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_With_Empty_Email_Field_on_Login_Page -->
+        <test-method signature="form_Validation_With_Empty_password_field_On_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" started-at="2025-11-08T23:03:59 IST" name="form_Validation_With_Empty_password_field_On_Login_Page" finished-at="2025-11-08T23:04:02 IST" duration-ms="2574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_With_Empty_password_field_On_Login_Page -->
+        <test-method signature="form_Validation_With_Invalid_Password_In_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" started-at="2025-11-08T23:04:02 IST" name="form_Validation_With_Invalid_Password_In_Login_Page" finished-at="2025-11-08T23:04:03 IST" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_With_Invalid_Password_In_Login_Page -->
+        <test-method signature="form_Validation_With_Invalid_email_in_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" started-at="2025-11-08T23:04:03 IST" name="form_Validation_With_Invalid_email_in_Login_Page" finished-at="2025-11-08T23:04:04 IST" duration-ms="776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_With_Invalid_email_in_Login_Page -->
+        <test-method signature="form_Validation_With_Long_Password_Exceeding_The_Minimum_Requirement()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" started-at="2025-11-08T23:04:04 IST" name="form_Validation_With_Long_Password_Exceeding_The_Minimum_Requirement" finished-at="2025-11-08T23:04:04 IST" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_With_Long_Password_Exceeding_The_Minimum_Requirement -->
+        <test-method signature="form_Validation_With_Password_Lesser_than_The_Minimum_Requirement()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" started-at="2025-11-08T23:04:04 IST" name="form_Validation_With_Password_Lesser_than_The_Minimum_Requirement" finished-at="2025-11-08T23:04:05 IST" duration-ms="836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_With_Password_Lesser_than_The_Minimum_Requirement -->
+        <test-method signature="form_Validation_with_Mismatch_Passwords_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" started-at="2025-11-08T23:04:05 IST" name="form_Validation_with_Mismatch_Passwords_In_SignUp" finished-at="2025-11-08T23:04:06 IST" duration-ms="1210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_with_Mismatch_Passwords_In_SignUp -->
+        <test-method signature="handle_Unexpected_Alert_If_Present()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" started-at="2025-11-08T23:04:06 IST" name="handle_Unexpected_Alert_If_Present" finished-at="2025-11-08T23:04:08 IST" duration-ms="2045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handle_Unexpected_Alert_If_Present -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@a1cdc6d]" started-at="2025-11-08T23:04:08 IST" name="tearDownDriver" finished-at="2025-11-08T23:04:09 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- keralaTourismAutomationTestNG.FormFieldValidation -->
+      <class name="keralaTourismAutomationTestNG.E2EuserJourney">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.E2EuserJourney@623a8092]" started-at="2025-11-08T23:04:58 IST" name="initializeDriver" finished-at="2025-11-08T23:05:02 IST" duration-ms="3535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:keralaTourismAutomationTestNG.E2EuserJourney@623a8092]" started-at="2025-11-08T23:05:02 IST" name="verifyHomePageTitle" finished-at="2025-11-08T23:05:02 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method signature="performSignUp()[pri:2, instance:keralaTourismAutomationTestNG.E2EuserJourney@623a8092]" started-at="2025-11-08T23:05:06 IST" name="performSignUp" finished-at="2025-11-08T23:05:11 IST" depends-on-methods="keralaTourismAutomationTestNG.E2EuserJourney.verifyHomePageTitle" duration-ms="5066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performSignUp -->
+        <test-method signature="exploreDistricts()[pri:3, instance:keralaTourismAutomationTestNG.E2EuserJourney@623a8092]" started-at="2025-11-08T23:05:11 IST" name="exploreDistricts" finished-at="2025-11-08T23:05:35 IST" depends-on-methods="keralaTourismAutomationTestNG.E2EuserJourney.performSignUp" duration-ms="23678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exploreDistricts -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:keralaTourismAutomationTestNG.E2EuserJourney@623a8092]" started-at="2025-11-08T23:05:35 IST" name="tearDownDriver" finished-at="2025-11-08T23:05:35 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- keralaTourismAutomationTestNG.E2EuserJourney -->
+      <class name="keralaTourismAutomationTestNG.ResponsiveUITest">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.ResponsiveUITest@3098cf3b]" started-at="2025-11-08T23:04:53 IST" name="initializeDriver" finished-at="2025-11-08T23:04:56 IST" duration-ms="2378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.ResponsiveUITest@3098cf3b]" started-at="2025-11-08T23:04:56 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T23:04:57 IST" duration-ms="640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1920]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Desktop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.ResponsiveUITest@3098cf3b]" started-at="2025-11-08T23:04:57 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T23:04:57 IST" duration-ms="493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1024]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[768]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tablet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.ResponsiveUITest@3098cf3b]" started-at="2025-11-08T23:04:57 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T23:04:57 IST" duration-ms="489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[375]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[667]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mobile iPhone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.ResponsiveUITest@3098cf3b]" started-at="2025-11-08T23:04:57 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T23:04:58 IST" duration-ms="478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[360]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[800]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mobile Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:keralaTourismAutomationTestNG.ResponsiveUITest@3098cf3b]" started-at="2025-11-08T23:04:58 IST" name="tearDownDriver" finished-at="2025-11-08T23:04:58 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- keralaTourismAutomationTestNG.ResponsiveUITest -->
+      <class name="keralaTourismAutomationTestNG.BrokenLinkDetection">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.BrokenLinkDetection@548e6d58]" started-at="2025-11-08T23:04:41 IST" name="initializeDriver" finished-at="2025-11-08T23:04:53 IST" duration-ms="11161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="verifyBrokenLinks()[pri:0, instance:keralaTourismAutomationTestNG.BrokenLinkDetection@548e6d58]" started-at="2025-11-08T23:04:53 IST" name="verifyBrokenLinks" finished-at="2025-11-08T23:04:53 IST" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrokenLinks -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:keralaTourismAutomationTestNG.BrokenLinkDetection@548e6d58]" started-at="2025-11-08T23:04:53 IST" name="tearDownDriver" finished-at="2025-11-08T23:04:53 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- keralaTourismAutomationTestNG.BrokenLinkDetection -->
+      <class name="keralaTourismAutomationTestNG.XSSInjectionTest">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.XSSInjectionTest@610f7aa]" started-at="2025-11-08T23:04:32 IST" name="initializeDriver" finished-at="2025-11-08T23:04:38 IST" duration-ms="5530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="test_Login_XSS_Injection()[pri:0, instance:keralaTourismAutomationTestNG.XSSInjectionTest@610f7aa]" started-at="2025-11-08T23:04:38 IST" name="test_Login_XSS_Injection" finished-at="2025-11-08T23:04:40 IST" duration-ms="1937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login_XSS_Injection -->
+        <test-method signature="test_Signup_XSS_Injection()[pri:0, instance:keralaTourismAutomationTestNG.XSSInjectionTest@610f7aa]" started-at="2025-11-08T23:04:40 IST" name="test_Signup_XSS_Injection" finished-at="2025-11-08T23:04:41 IST" duration-ms="1478" status="FAIL">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : validation Success}
+  (Session info: MicrosoftEdge=142.0.3595.53): validation Success
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a1db81824a4f6b3b2ea0fed9d1d23b3a, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.53, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63017}, msedge: {msedgedriverVersion: 141.0.3537.99 (1b2f83d6a142..., userDataDir: C:\Users\GIRISH\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63017/devtoo..., se:cdpVersion: 142.0.3595.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a1db81824a4f6b3b2ea0fed9d1d23b3a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : validation Success}
+  (Session info: MicrosoftEdge=142.0.3595.53): validation Success
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a1db81824a4f6b3b2ea0fed9d1d23b3a, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 142.0.3595.53, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63017}, msedge: {msedgedriverVersion: 141.0.3537.99 (1b2f83d6a142..., userDataDir: C:\Users\GIRISH\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63017/devtoo..., se:cdpVersion: 142.0.3595.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a1db81824a4f6b3b2ea0fed9d1d23b3a
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:333)
+at utilities.ScreenshotUtility.ScreenshotOf(ScreenshotUtility.java:14)
+at keralaTourismAutomationTestNG.XSSInjectionTest.test_Signup_XSS_Injection(XSSInjectionTest.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Signup_XSS_Injection -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:keralaTourismAutomationTestNG.XSSInjectionTest@610f7aa]" started-at="2025-11-08T23:04:41 IST" name="tearDownDriver" finished-at="2025-11-08T23:04:41 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- keralaTourismAutomationTestNG.XSSInjectionTest -->
+    </test> <!-- Edge Tests -->
+    <test started-at="2025-11-08T23:03:28 IST" name="Firefox Tests" finished-at="2025-11-08T23:06:05 IST" duration-ms="157138">
+      <class name="keralaTourismAutomationTestNG.Performance_PageLoadTime">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.Performance_PageLoadTime@2638011]" started-at="2025-11-08T23:04:08 IST" name="initializeDriver" finished-at="2025-11-08T23:04:16 IST" duration-ms="7778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="measurePageLoadTime()[pri:0, instance:keralaTourismAutomationTestNG.Performance_PageLoadTime@2638011]" started-at="2025-11-08T23:04:16 IST" name="measurePageLoadTime" finished-at="2025-11-08T23:04:17 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- measurePageLoadTime -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:keralaTourismAutomationTestNG.Performance_PageLoadTime@2638011]" started-at="2025-11-08T23:04:17 IST" name="tearDownDriver" finished-at="2025-11-08T23:04:18 IST" duration-ms="1408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- keralaTourismAutomationTestNG.Performance_PageLoadTime -->
+      <class name="keralaTourismAutomationTestNG.BasicSmokeTest">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6e509ffa]" started-at="2025-11-08T23:04:18 IST" name="initializeDriver" finished-at="2025-11-08T23:04:23 IST" duration-ms="5044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="navigating_through_districts_page()[pri:0, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6e509ffa]" started-at="2025-11-08T23:04:23 IST" name="navigating_through_districts_page" finished-at="2025-11-08T23:04:30 IST" duration-ms="7169" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[This Page doesn't have a page title expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: This Page doesn't have a page title expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at keralaTourismAutomationTestNG.BasicSmokeTest.navigating_through_districts_page(BasicSmokeTest.java:167)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigating_through_districts_page -->
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6e509ffa]" started-at="2025-11-08T23:05:45 IST" name="verifyHomePageTitle" finished-at="2025-11-08T23:05:45 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method signature="basicNavigationThroughMainMenu()[pri:2, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6e509ffa]" started-at="2025-11-08T23:05:49 IST" name="basicNavigationThroughMainMenu" finished-at="2025-11-08T23:05:50 IST" duration-ms="1070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicNavigationThroughMainMenu -->
+        <test-method signature="validatingExplorePage()[pri:3, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6e509ffa]" started-at="2025-11-08T23:06:04 IST" name="validatingExplorePage" finished-at="2025-11-08T23:06:04 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingExplorePage -->
+        <test-method signature="validatingLoginPage()[pri:4, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6e509ffa]" started-at="2025-11-08T23:06:04 IST" name="validatingLoginPage" finished-at="2025-11-08T23:06:04 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingLoginPage -->
+        <test-method signature="validatingSignupPage()[pri:5, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6e509ffa]" started-at="2025-11-08T23:06:04 IST" name="validatingSignupPage" finished-at="2025-11-08T23:06:04 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingSignupPage -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:keralaTourismAutomationTestNG.BasicSmokeTest@6e509ffa]" started-at="2025-11-08T23:06:04 IST" name="tearDownDriver" finished-at="2025-11-08T23:06:05 IST" duration-ms="1279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- keralaTourismAutomationTestNG.BasicSmokeTest -->
+      <class name="keralaTourismAutomationTestNG.FormFieldValidation">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" started-at="2025-11-08T23:03:28 IST" name="initializeDriver" finished-at="2025-11-08T23:03:41 IST" duration-ms="12694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="form_Field_Validation_With_Empty_Email_Field_In_SignUP()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" started-at="2025-11-08T23:03:41 IST" name="form_Field_Validation_With_Empty_Email_Field_In_SignUP" finished-at="2025-11-08T23:03:44 IST" duration-ms="3001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Field_Validation_With_Empty_Email_Field_In_SignUP -->
+        <test-method signature="form_Field_Validation_With_Empty_Name_Field_InSignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" started-at="2025-11-08T23:03:44 IST" name="form_Field_Validation_With_Empty_Name_Field_InSignUp" finished-at="2025-11-08T23:03:47 IST" duration-ms="2655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Field_Validation_With_Empty_Name_Field_InSignUp -->
+        <test-method signature="form_Field_Validation_With_Empty_Password1_Field_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" started-at="2025-11-08T23:03:47 IST" name="form_Field_Validation_With_Empty_Password1_Field_In_SignUp" finished-at="2025-11-08T23:03:50 IST" duration-ms="3185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Field_Validation_With_Empty_Password1_Field_In_SignUp -->
+        <test-method signature="form_Field_Validation_With_Empty_Password2_Field_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" started-at="2025-11-08T23:03:50 IST" name="form_Field_Validation_With_Empty_Password2_Field_In_SignUp" finished-at="2025-11-08T23:03:51 IST" duration-ms="1076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Field_Validation_With_Empty_Password2_Field_In_SignUp -->
+        <test-method signature="form_Field_Validation_With_Empty_PhoneNumber_Field_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" started-at="2025-11-08T23:03:51 IST" name="form_Field_Validation_With_Empty_PhoneNumber_Field_In_SignUp" finished-at="2025-11-08T23:03:54 IST" duration-ms="2889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Field_Validation_With_Empty_PhoneNumber_Field_In_SignUp -->
+        <test-method signature="form_Validation_With_Both_Empty_Fields_on_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" started-at="2025-11-08T23:03:54 IST" name="form_Validation_With_Both_Empty_Fields_on_Login_Page" finished-at="2025-11-08T23:03:58 IST" duration-ms="3856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_With_Both_Empty_Fields_on_Login_Page -->
+        <test-method signature="form_Validation_With_Empty_Email_Field_on_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" started-at="2025-11-08T23:03:58 IST" name="form_Validation_With_Empty_Email_Field_on_Login_Page" finished-at="2025-11-08T23:03:59 IST" duration-ms="1381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_With_Empty_Email_Field_on_Login_Page -->
+        <test-method signature="form_Validation_With_Empty_password_field_On_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" started-at="2025-11-08T23:03:59 IST" name="form_Validation_With_Empty_password_field_On_Login_Page" finished-at="2025-11-08T23:04:02 IST" duration-ms="2492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_With_Empty_password_field_On_Login_Page -->
+        <test-method signature="form_Validation_With_Invalid_Password_In_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" started-at="2025-11-08T23:04:02 IST" name="form_Validation_With_Invalid_Password_In_Login_Page" finished-at="2025-11-08T23:04:02 IST" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_With_Invalid_Password_In_Login_Page -->
+        <test-method signature="form_Validation_With_Invalid_email_in_Login_Page()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" started-at="2025-11-08T23:04:02 IST" name="form_Validation_With_Invalid_email_in_Login_Page" finished-at="2025-11-08T23:04:03 IST" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_With_Invalid_email_in_Login_Page -->
+        <test-method signature="form_Validation_With_Long_Password_Exceeding_The_Minimum_Requirement()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" started-at="2025-11-08T23:04:03 IST" name="form_Validation_With_Long_Password_Exceeding_The_Minimum_Requirement" finished-at="2025-11-08T23:04:04 IST" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_With_Long_Password_Exceeding_The_Minimum_Requirement -->
+        <test-method signature="form_Validation_With_Password_Lesser_than_The_Minimum_Requirement()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" started-at="2025-11-08T23:04:04 IST" name="form_Validation_With_Password_Lesser_than_The_Minimum_Requirement" finished-at="2025-11-08T23:04:05 IST" duration-ms="998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_With_Password_Lesser_than_The_Minimum_Requirement -->
+        <test-method signature="form_Validation_with_Mismatch_Passwords_In_SignUp()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" started-at="2025-11-08T23:04:05 IST" name="form_Validation_with_Mismatch_Passwords_In_SignUp" finished-at="2025-11-08T23:04:06 IST" duration-ms="1264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- form_Validation_with_Mismatch_Passwords_In_SignUp -->
+        <test-method signature="handle_Unexpected_Alert_If_Present()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" started-at="2025-11-08T23:04:06 IST" name="handle_Unexpected_Alert_If_Present" finished-at="2025-11-08T23:04:08 IST" duration-ms="2042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handle_Unexpected_Alert_If_Present -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:keralaTourismAutomationTestNG.FormFieldValidation@68267da0]" started-at="2025-11-08T23:04:08 IST" name="tearDownDriver" finished-at="2025-11-08T23:04:08 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- keralaTourismAutomationTestNG.FormFieldValidation -->
+      <class name="keralaTourismAutomationTestNG.E2EuserJourney">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.E2EuserJourney@683dbc2c]" started-at="2025-11-08T23:05:45 IST" name="initializeDriver" finished-at="2025-11-08T23:05:49 IST" duration-ms="4277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:keralaTourismAutomationTestNG.E2EuserJourney@683dbc2c]" started-at="2025-11-08T23:05:49 IST" name="verifyHomePageTitle" finished-at="2025-11-08T23:05:49 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method signature="performSignUp()[pri:2, instance:keralaTourismAutomationTestNG.E2EuserJourney@683dbc2c]" started-at="2025-11-08T23:05:50 IST" name="performSignUp" finished-at="2025-11-08T23:05:51 IST" depends-on-methods="keralaTourismAutomationTestNG.E2EuserJourney.verifyHomePageTitle" duration-ms="1094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performSignUp -->
+        <test-method signature="exploreDistricts()[pri:3, instance:keralaTourismAutomationTestNG.E2EuserJourney@683dbc2c]" started-at="2025-11-08T23:05:51 IST" name="exploreDistricts" finished-at="2025-11-08T23:06:03 IST" depends-on-methods="keralaTourismAutomationTestNG.E2EuserJourney.performSignUp" duration-ms="11646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exploreDistricts -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:keralaTourismAutomationTestNG.E2EuserJourney@683dbc2c]" started-at="2025-11-08T23:06:03 IST" name="tearDownDriver" finished-at="2025-11-08T23:06:04 IST" duration-ms="918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- keralaTourismAutomationTestNG.E2EuserJourney -->
+      <class name="keralaTourismAutomationTestNG.ResponsiveUITest">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.ResponsiveUITest@6ff29830]" started-at="2025-11-08T23:04:57 IST" name="initializeDriver" finished-at="2025-11-08T23:05:11 IST" duration-ms="13943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.ResponsiveUITest@6ff29830]" started-at="2025-11-08T23:05:11 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T23:05:24 IST" duration-ms="13387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1920]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Desktop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.ResponsiveUITest@6ff29830]" started-at="2025-11-08T23:05:24 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T23:05:26 IST" duration-ms="1595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1024]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[768]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tablet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.ResponsiveUITest@6ff29830]" started-at="2025-11-08T23:05:26 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T23:05:39 IST" duration-ms="12871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[375]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[667]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mobile iPhone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.ResponsiveUITest@6ff29830]" started-at="2025-11-08T23:05:39 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T23:05:43 IST" duration-ms="4742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[360]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[800]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mobile Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:keralaTourismAutomationTestNG.ResponsiveUITest@6ff29830]" started-at="2025-11-08T23:05:43 IST" name="tearDownDriver" finished-at="2025-11-08T23:05:45 IST" duration-ms="1271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- keralaTourismAutomationTestNG.ResponsiveUITest -->
+      <class name="keralaTourismAutomationTestNG.BrokenLinkDetection">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.BrokenLinkDetection@2898ac89]" started-at="2025-11-08T23:04:47 IST" name="initializeDriver" finished-at="2025-11-08T23:04:54 IST" duration-ms="7270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="verifyBrokenLinks()[pri:0, instance:keralaTourismAutomationTestNG.BrokenLinkDetection@2898ac89]" started-at="2025-11-08T23:04:54 IST" name="verifyBrokenLinks" finished-at="2025-11-08T23:04:55 IST" duration-ms="764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrokenLinks -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:keralaTourismAutomationTestNG.BrokenLinkDetection@2898ac89]" started-at="2025-11-08T23:04:55 IST" name="tearDownDriver" finished-at="2025-11-08T23:04:57 IST" duration-ms="1785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- keralaTourismAutomationTestNG.BrokenLinkDetection -->
+      <class name="keralaTourismAutomationTestNG.XSSInjectionTest">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:keralaTourismAutomationTestNG.XSSInjectionTest@6a2b953e]" started-at="2025-11-08T23:04:30 IST" name="initializeDriver" finished-at="2025-11-08T23:04:41 IST" duration-ms="10828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="test_Login_XSS_Injection()[pri:0, instance:keralaTourismAutomationTestNG.XSSInjectionTest@6a2b953e]" started-at="2025-11-08T23:04:41 IST" name="test_Login_XSS_Injection" finished-at="2025-11-08T23:04:44 IST" duration-ms="2489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login_XSS_Injection -->
+        <test-method signature="test_Signup_XSS_Injection()[pri:0, instance:keralaTourismAutomationTestNG.XSSInjectionTest@6a2b953e]" started-at="2025-11-08T23:04:44 IST" name="test_Signup_XSS_Injection" finished-at="2025-11-08T23:04:45 IST" duration-ms="1032" status="FAIL">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[Unexpected alert dialog detected. Performed handler "dismiss": validation Success
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f5202551-f101-4ba0-9772-13d3b5f9598e, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0.2, moz:accessibilityChecks: false, moz:buildID: 20251027123126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31504, moz:profile: C:\Users\GIRISH\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: f5202551-f101-4ba0-9772-13d3b5f9598e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: Unexpected alert dialog detected. Performed handler "dismiss": validation Success
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f5202551-f101-4ba0-9772-13d3b5f9598e, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 144.0.2, moz:accessibilityChecks: false, moz:buildID: 20251027123126, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 31504, moz:profile: C:\Users\GIRISH\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: f5202551-f101-4ba0-9772-13d3b5f9598e
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:333)
+at utilities.ScreenshotUtility.ScreenshotOf(ScreenshotUtility.java:14)
+at keralaTourismAutomationTestNG.XSSInjectionTest.test_Signup_XSS_Injection(XSSInjectionTest.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Signup_XSS_Injection -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:keralaTourismAutomationTestNG.XSSInjectionTest@6a2b953e]" started-at="2025-11-08T23:04:45 IST" name="tearDownDriver" finished-at="2025-11-08T23:04:47 IST" duration-ms="2372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- keralaTourismAutomationTestNG.XSSInjectionTest -->
+    </test> <!-- Firefox Tests -->
+  </suite> <!-- Kerala Tourism Regression Suite -->
+</testng-results>
