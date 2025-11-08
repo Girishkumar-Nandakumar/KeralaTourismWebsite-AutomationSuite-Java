@@ -127,3 +127,5 @@ Heartfelt gratitude to the open-source QA community for providing tools, framewo
 📌 Demonstrated cross-tool proficiency across functional, performance, and security domains.
 📌 Developed reporting and metric analysis capabilities aligned with IEEE documentation standards.
 📌 Strengthened readiness for real-world QA projects and CI/CD environments.
+
+⭐ If you found this project inspiring or helpful — please give it a star on GitHub! 🌟
